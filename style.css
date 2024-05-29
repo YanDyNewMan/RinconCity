@@ -6,12 +6,13 @@
 }
 
 /* BODY */
-body{
+.nav{
     width: 100%;
     height: 100vh;
     min-height: 100vh;
     max-width: 380px;
     max-height: 770px;
+    margin: 0 auto;
     /* background-color: rgb(229, 225, 225); */
     background-image: url(RC.png);
     /* background-position: center; */
@@ -23,10 +24,7 @@ body{
     align-items: center;
 }
 
-.nav{
-    position: relative;
-    top: 80px;
-}
+
 
 
 
