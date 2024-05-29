@@ -25,11 +25,13 @@
 }
 
 
+.link-nav{
+    position: relative;
+    top: 80px;
+}
 
 
-
-a{
-    
+a{    
     display: inline-block;
     margin: 10px auto;
     padding: 5px 30px;
