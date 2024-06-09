@@ -50,6 +50,22 @@ ul , li {
     list-style: none;
 }
 
+.btn{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 40px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.btn-ico{
+
+    
+
+}
+
 /* Info */
 .info{
     font-family: "Julee", cursive;
