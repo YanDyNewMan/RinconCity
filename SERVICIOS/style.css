@@ -10,7 +10,9 @@ body{
     /* background-color: rgb(229, 225, 225); */
     height: 100vh;
     background-image: url(Back.png);
-    background-size: contain;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
 }
 
