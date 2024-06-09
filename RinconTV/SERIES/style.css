@@ -149,7 +149,7 @@ ul , li {
         border-radius: 15px;
     }
     50%{
-        box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.361);
+        box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.361);
         background-color: rgb(26, 43, 27);
         border-radius: 5px;
     }
