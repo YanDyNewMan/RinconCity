@@ -12,29 +12,11 @@ body{
     min-height: 100vh;
     max-width: 380px;
     max-height: 770px;
-    background-color: rgb(192, 192, 192);
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-}
-.navega{
-    list-style: none;
-    width: 90%;
-    max-width: 395px;
-    height: 100%;
-    margin: auto;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-.card{
-    background-color: white;
-    height: 450px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.img-9a{
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
 }
 
 
@@ -55,7 +37,44 @@ body{
     left: 0;
 }
 
+/* TITLE */
+.oficios{
 
+    list-style: none;
+    width: 90%;
+    max-width: 395px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+
+ul , li {
+    list-style: none;
+}
+
+.btn{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 40px;
+    margin: 5px 0px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn-ico{
+
+    
+
+}
 
 /* Info */
 .info{
