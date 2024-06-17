@@ -164,6 +164,8 @@ ul , li {
     text-align: center;
 }
 .ubic-head{
+    width: max-content;
+    margin: 0 auto;
     margin-bottom: 10px;
     color: white;
     background-color: black;
