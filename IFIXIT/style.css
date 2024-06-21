@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px red dotted;
+    /* outline: 1px red dotted; */
 }
 
 /* BODY */
@@ -18,8 +18,8 @@ body{
 
 /* TITLE */
 .title{
-    background-color: black;
-    color: gold;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: white;
     padding: 10px 0px;
     text-align: center;
     letter-spacing: 5px;
@@ -94,7 +94,28 @@ body{
 }
 .laptops2{
     width: 100%;
+    columns: 2;
 }
+.lado{
+    columns: 2;
+}
+.dos{
+    width: 100%;
+}
+.tres{
+    width: 100%;
+}
+.cuatro{
+    width: 100%;
+}
+.cinco{
+    width: 100%;
+}
+.seis{
+    width: 100%;
+}
+
+
 
 
 
