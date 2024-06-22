@@ -91,15 +91,10 @@ body{
     object-fit: cover;
 }
 .laptops{
+    margin-top: 10px;
     width: 100%;
 }
-.laptops2{
-    width: 100%;
-    columns: 2;
-}
-.lado{
-    columns: 2;
-}
+
 .dos{
     width: 100%;
 }
@@ -115,6 +110,19 @@ body{
 .seis{
     width: 100%;
     margin-bottom: 80px;
+}
+.imgb{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.paragraph{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 
