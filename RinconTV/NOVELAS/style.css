@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: red dotted 1px;
+    /* outline: red dotted 1px; */
 }
 
 
@@ -39,14 +39,14 @@ body{
     margin: 0px 5px;
 }
 .cont-abc{
-    
+
 }
 .menu{
     
     list-style: none;
     width: 90%;
     max-width: 395px;
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
     text-align: center;
 
