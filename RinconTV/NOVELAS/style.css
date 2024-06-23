@@ -129,7 +129,7 @@ ul , li {
     margin: 5px 0px;
 }
 
-
+/* CHAT */
 .info-chat{
     background-color: black;   
     padding: 10px 15px;
@@ -141,14 +141,13 @@ ul , li {
     bottom: 10px;
     animation: efecto 3s infinite;
 }
-.adm-h1{
-    color: white;
-}
+
 .contacta{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+/* ICINOS */
 .what-img{
     display: block;
     width: 35px;
@@ -168,7 +167,7 @@ ul , li {
     display: block;
     width: max-content;
 }
-
+/* UBIC */
 .ubic{
     width: 95%;   
     margin: 30px auto;
@@ -189,8 +188,6 @@ ul , li {
     margin-bottom: 45px;
 }
 
-#inicio{
-    left:30px;
-}
+
 
 
