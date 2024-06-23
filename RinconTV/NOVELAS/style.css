@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: red dotted 1px; */
+    outline: red dotted 1px;
 }
 
 
@@ -38,13 +38,16 @@ body{
     font-size: 15px;
     margin: 0px 5px;
 }
-
+.const-menu{
+    height: 100vh;
+    width: 100%;
+}
 .menu{
     
     list-style: none;
     width: 90%;
     max-width: 395px;
-    height: 580px;
+    height: 80%;
     margin: 0 auto;
     text-align: center;
     overflow: scroll;
