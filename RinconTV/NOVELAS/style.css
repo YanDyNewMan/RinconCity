@@ -58,7 +58,7 @@ body{
     display: block;
 }
 
-a{
+.link{
     display: inline-block;
     margin: 10px auto;
     padding: 5px 30px;
@@ -128,36 +128,47 @@ ul , li {
 .info > h2{
     margin: 5px 0px;
 }
-/* NAV */
-.what-img{
-    z-index: 999;
-    position: fixed;
-    width: 50px;
-    left: 5px;
-    top: 80px;
-    padding: 5px;
+
+
+.info-chat{
+    background-color: black;   
+    padding: 10px 15px;
+    border-radius: 30px;
     border: 1px solid white;
-    box-shadow: 0px 0px 5px 0px white;
-    animation: efecto 1s infinite;
+    position: fixed;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    animation: efecto 3s infinite;
+}
+.adm-h1{
+    color: white;
+}
+.contacta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.what-img{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.btn-ico{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.call{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.chat , .callme{
+    display: block;
+    width: max-content;
 }
 
-@keyframes efecto{
-    0%{
-        box-shadow: 0 0 0 0 #38f858;
-        background-color: black;
-        border-radius: 15px;
-    }
-    50%{
-        box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.361);
-        background-color: rgb(26, 43, 27);
-        border-radius: 5px;
-    }
-    100%{
-        box-shadow: 0 0 0 0 #38f858;
-        background-color: black;
-        border-radius: 15px;
-    }
-}
 .ubic{
     width: 95%;   
     margin: 30px auto;
@@ -175,6 +186,7 @@ ul , li {
 .img-ubic{
     border-radius: 5px;
     width: 100%;
+    margin-bottom: 45px;
 }
 
 #inicio{
