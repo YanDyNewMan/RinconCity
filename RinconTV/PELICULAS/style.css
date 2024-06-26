@@ -119,3 +119,7 @@ img{
 .extra{
     display: none;
 }
+.caja{
+    width: 100%;
+    height: 70px;
+}
