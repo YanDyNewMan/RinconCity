@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: red dotted 1px; */
+    outline: red dotted 1px;
 }
 
 
@@ -13,8 +13,9 @@ background-color: black;
 .menu{
     width: 100%;
     max-width: 370px;
-    height: 100vh;
-    margin-top: 40px;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 .menuson{
     
@@ -31,16 +32,17 @@ background-color: black;
 } */
 .gridplace{
     width: 95%;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 300px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 .card{
-   width: 45%; 
+   width: 100%; 
    height: 290px;
-   margin: 5px;
    text-align: center;
    background-color: white;
    box-shadow: 0px 0px 6px 0px white;
@@ -119,7 +121,4 @@ img{
 .extra{
     display: none;
 }
-.caja{
-    width: 100%;
-    height: 70px;
-}
+
