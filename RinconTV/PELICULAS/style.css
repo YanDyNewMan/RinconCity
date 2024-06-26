@@ -36,7 +36,6 @@ background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: center;
 }
 .card{
    width: 45%; 
