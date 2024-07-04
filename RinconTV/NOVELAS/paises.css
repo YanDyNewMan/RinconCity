@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: red dotted 1px; */
+}
+
+body{
+    background-color: black;
+}
+
+h2{
+    color: white;
+}
+
+.info-chat{
+    background-color: black;   
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid white;
+    position: fixed;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+}
+
+.contacta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ICINOS */
+.what-img{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.btn-ico{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.call{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.chat , .callme{
+    display: block;
+    width: max-content;
+}
+
+
+.container{
+    display: flex;
+    /* height: 100%; */
+    margin-top: 30px;
+}
+.paises{
+    margin: auto;
+}
+.link-btn{
+    display: block;
+    margin: 15px auto;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: max-content;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
