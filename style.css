@@ -24,8 +24,8 @@
 
 }
 .ul-container{
-    position: absolute;
-    bottom: 5rem;
+    position: fixed;
+    bottom: 7rem;
 }
 
 .link-nav{    
