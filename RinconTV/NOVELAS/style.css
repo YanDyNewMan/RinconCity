@@ -68,15 +68,17 @@ body{
     /* margin-top: 10px; */
 }
 .paises{
-    /* margin: auto; */
+    margin-bottom: 5rem;
 }
 .link-btn{
     display: block;
+    text-align: center;
+    font-size: 1.5em;
     margin: 15px auto;
     text-decoration: none;
     background-color: black;
     color: white;
-    width: max-content;
+    width: 50%;
     padding: 5px 15px;
     border-radius: 15px;
     border: 1px solid white;
