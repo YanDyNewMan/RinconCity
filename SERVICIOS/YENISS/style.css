@@ -119,8 +119,8 @@ body{
     font-size: 1.5rem;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: black;
-    color: white;
+    background-color: #ffd8f0;
+    color: indigo;
     padding: 5px;
     border-radius: 5px;
 }
