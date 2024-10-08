@@ -1,0 +1,107 @@
+[2024-10-08 07:12:54.313] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::EnumDevice] EnumDevice start
+[2024-10-08 07:12:54.497] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 1, ST8000DM004-2CX188, PhysicalDrive3, Internal.
+[2024-10-08 07:12:54.498] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 2, HUH721010ALE601, PhysicalDrive6, Internal.
+[2024-10-08 07:12:54.498] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 3, Seagate BUP Portable SCSI Disk Device, PhysicalDrive8, External.
+[2024-10-08 07:12:54.499] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 4, HUH721010ALE601, PhysicalDrive5, Internal.
+[2024-10-08 07:12:54.499] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 5, Kingston DataTraveler 3.0 USB Device, PhysicalDrive9, External.
+[2024-10-08 07:12:54.499] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 6, ST16000NM000J-2TW103, PhysicalDrive2, Internal.
+[2024-10-08 07:12:54.499] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 7, ST8000DM004-2CX188, PhysicalDrive4, Internal.
+[2024-10-08 07:12:54.500] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 8, WDC WD101EFBX-68B0AN0, PhysicalDrive1, Internal.
+[2024-10-08 07:12:54.500] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] [WMI] 9, THNSN5512GPUK NVMe TOSHIBA 512GB, PhysicalDrive0, Internal.
+[2024-10-08 07:12:54.500] [info] [P/T: 1596/11348] [CPartitionManager::QueryDiskDrive] Skip the error disk7, maybe it is just a USB Connector without Storage Media.
+[2024-10-08 07:12:55.166] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 1, SetupCategory: 0x3000000
+[2024-10-08 07:12:55.169] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 0, SetupCategory: 0x4000000
+[2024-10-08 07:12:55.169] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 8, SetupCategory: 0x0001
+[2024-10-08 07:12:55.169] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 5, SetupCategory: 0x3000000
+[2024-10-08 07:12:55.169] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 6, SetupCategory: 0x3000000
+[2024-10-08 07:12:55.169] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 4, SetupCategory: 0x3000000
+[2024-10-08 07:12:55.169] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 3, SetupCategory: 0x3000000
+[2024-10-08 07:12:55.169] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 9, SetupCategory: 0x0001
+[2024-10-08 07:12:55.170] [info] [P/T: 1596/11348] [CPartitionManager::QueryPhysicalDisk] DeviceId: 2, SetupCategory: 0x3000000
+[2024-10-08 07:12:55.610] [info] [P/T: 1596/11348] [CPartitionManager::QueryLogicalDiskToPartition] LogicalDiskToPartitionArray WMI ERROR
+[2024-10-08 07:12:55.610] [info] [P/T: 1596/11348] [CPartitionManager::QueryLogicalDiskToPartition] LogicalDiskToPartitionArray count: 9
+[2024-10-08 07:12:55.658] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:*, Start: 2048, End: 1085439, Capacity: 0.52GB, Virtual(0x00, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.661] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:C, Start: 1323008, End: 1000214527, Capacity: 476.31GB, Virtual(0x00, 0x02), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.661] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:E, Start: 32768, End: 19532869631, Capacity: 9313.98GB, Virtual(0x01, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.662] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:F, Start: 32768, End: 31251755007, Capacity: 14901.98GB, Virtual(0x02, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.662] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:H, Start: 264192, End: 15628052479, Capacity: 7451.91GB, Virtual(0x03, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.662] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:G, Start: 2048, End: 15628052479, Capacity: 7452.04GB, Virtual(0x04, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.662] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:D, Start: 32768, End: 19532869631, Capacity: 9313.98GB, Virtual(0x05, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.662] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:I, Start: 32768, End: 19532869631, Capacity: 9313.98GB, Virtual(0x06, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.663] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:M, Start: 411648, End: 7814035455, Capacity: 3725.83GB, Virtual(0x08, 0x01), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.663] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:K, Start: 36096, End: 60604415, Capacity: 28.88GB, Virtual(0x09, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.663] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:*, Start: 1085440, End: 1290239, Capacity: 0.10GB, Virtual(0x00, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.664] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Cannot find physical info: N, disk count: 9 LogicalDiskToPartitionArray size: 9
+[2024-10-08 07:12:55.664] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Filter invalid volume, maybe it is a allover external disk without initialized.
+[2024-10-08 07:12:55.664] [info] [P/T: 1596/11348] [CPartitionManager::QueryVolume] Drive:*, Start: 40, End: 409639, Capacity: 0.20GB, Virtual(0x08, 0x00), Physical(0x00, 0x00).
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive3, device size: 8001563222016, sector size: 512
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=8001563222016
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: ST8000DM004-2CX188, Media Type: Fixed hard disk media
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 14
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive3, device size: 8001563222016, sector size: 512
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive6, device size: 10000831348736, sector size: 512
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=10000831348736
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: HUH721010ALE601, Media Type: Fixed hard disk media
+[2024-10-08 07:12:55.717] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 15
+[2024-10-08 07:12:55.718] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive6, device size: 10000831348736, sector size: 512
+[2024-10-08 07:12:55.718] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::WinExploreExpress] Filter the system volume:  in PhysicalDrive6
+[2024-10-08 07:12:55.718] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive8, device size: 4000787029504, sector size: 512
+[2024-10-08 07:12:55.718] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.718] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=4000787029504
+[2024-10-08 07:12:55.718] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: Seagate BUP Portable SCSI Disk Device, Media Type: External hard disk media
+[2024-10-08 07:12:55.718] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 16
+[2024-10-08 07:12:55.718] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive8, device size: 4000787029504, sector size: 512
+[2024-10-08 07:12:55.719] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::WinExploreExpress] Filter the system volume: EFI in PhysicalDrive8
+[2024-10-08 07:12:55.719] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive5, device size: 10000831348736, sector size: 512
+[2024-10-08 07:12:55.719] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.719] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=10000831348736
+[2024-10-08 07:12:55.719] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: HUH721010ALE601, Media Type: Fixed hard disk media
+[2024-10-08 07:12:55.719] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 17
+[2024-10-08 07:12:55.719] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive5, device size: 10000831348736, sector size: 512
+[2024-10-08 07:12:55.719] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::WinExploreExpress] Filter the system volume:  in PhysicalDrive5
+[2024-10-08 07:12:55.720] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive9, device size: 31029460992, sector size: 512
+[2024-10-08 07:12:55.720] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.720] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=31029460992
+[2024-10-08 07:12:55.720] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: Kingston DataTraveler 3.0 USB Device, Media Type: External hard disk media
+[2024-10-08 07:12:55.720] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 18
+[2024-10-08 07:12:55.720] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive9, device size: 31029460992, sector size: 512
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive2, device size: 16000900661248, sector size: 512
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=16000900661248
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: ST16000NM000J-2TW103, Media Type: Fixed hard disk media
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 19
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive2, device size: 16000900661248, sector size: 512
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::WinExploreExpress] Filter the system volume:  in PhysicalDrive2
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive4, device size: 8001563222016, sector size: 512
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=8001563222016
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: ST8000DM004-2CX188, Media Type: Fixed hard disk media
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 20
+[2024-10-08 07:12:55.721] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive4, device size: 8001563222016, sector size: 512
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive1, device size: 10000831348736, sector size: 512
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=10000831348736
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: WDC WD101EFBX-68B0AN0, Media Type: Fixed hard disk media
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 21
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive1, device size: 10000831348736, sector size: 512
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive0, device size: 512110190592, sector size: 512
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CDisk::CreateExpress] [CreateExpress] Set disk parameters.
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CDisk::CreateExpress] TracksPerCylinder=255, SectorsPerTrack=63, BytesPerSector=512, DiskSize=512110190592
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CDisk::CreateExpress] Disk Mode: THNSN5512GPUK NVMe TOSHIBA 512GB, Media Type: Fixed hard disk media
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::WinExploreExpress] Filter the system volume: Recuperación in PhysicalDrive0
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 22
+[2024-10-08 07:12:55.722] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive0, device size: 512110190592, sector size: 512
+[2024-10-08 07:12:55.724] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::WinExploreExpress] Filter the system volume: Local Disk in PhysicalDrive0
+[2024-10-08 07:12:55.724] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::WinExploreExpress] Filter the system volume:  in PhysicalDrive0
+[2024-10-08 07:12:55.724] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::WinExploreExpress] Common Volumes Count: 12
+[2024-10-08 07:12:55.725] [info] [P/T: 1596/11348] [DeviceExplorer::CDeviceExplore::EnumDevice] EnumDevice completed
+[2024-10-08 07:13:50.857] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 22
+[2024-10-08 07:13:50.858] [info] [P/T: 1596/11348] [CStorageDevice::InitLocalDevicePrivate] [CStorageDevice]: Close the device is and reopen again
+[2024-10-08 07:13:50.858] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive0, device size: 512110190592, sector size: 512
+[2024-10-08 07:13:50.858] [info] [P/T: 1596/11348] [CDisk::Duplicate] CDisk::Duplicate
+[2024-10-08 07:13:50.858] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive0, device size: 512110190592, sector size: 512
+[2024-10-08 07:13:50.860] [info] [P/T: 1596/11348] [CCommDeviceIo::Close] [CCommDeviceIo] : Close device m_fd = 23
+[2024-10-08 07:13:50.860] [info] [P/T: 1596/11348] [CWindowsDeviceIo::Open] [CWindowsDeviceIo]: Open device \\.\PhysicalDrive0, device size: 512110190592, sector size: 512
+[2024-10-08 07:13:50.861] [info] [P/T: 1596/11348] [CStorageDevice::SetScanDevice] [IO] I/O device: 0, external: 0, device ID: 0x2000020000000a18

@@ -1,386 +1,783 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RincónCity</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Julee&display=swap" rel="stylesheet">
-    <link rel="icon" href="R.ico">
+    <title>EMDB</title>
+    <link href="emdb.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-
-    <header class="title">
-        <!-- <h3 class="turcas">PELICULAS</h3> -->
-        <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
-    </header> 
-    
-
-
-    <div class="menu">
-<!-- # -->
-    <div class="menuson"><h2>#</h2>
-        <div class="gridplace">
-            <div class="card filmes">
-                <img src="img/venganza implacable.jpeg" class="img">
-                <p class="detalles">Venganza Implacable</p>
-                <p class="detalles"></p>
-                <p class="detalles extra">Liam Neeson 2020 accion</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/a family affair.jpeg" class="img">
-                <p class="detalles">A Family Affair</p>
-                <p class="detalles"></p>
-                <p class="detalles extra">2024 nicole kidman zac efron</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/beast.jpeg" class="img">
-                <p class="detalles">Beast</p>
-                <p class="detalles"></p>
-                <p class="detalles extra">2022 idris elba</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/grandes espias mision italia.jpeg" class="img">
-                <p class="detalles">Grandes Espias</p>
-                <p class="detalles">Mision Italia</p>
-                <p class="detalles extra">2024</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/inmaculada.jpeg" class="img">
-                <p class="detalles">Inmaculada</p>
-                <p class="detalles"></p>
-                <p class="detalles extra"></p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/la joven y el mar.jpeg" class="img">
-                <p class="detalles">La Joven y el Mar</p>
-                <p class="detalles"></p>
-                <p class="detalles extra"></p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/the ministry of ungentlemanly.jpeg" class="img">
-                <p class="detalles">El Ministerio de la Guerra</p>
-                <p class="detalles"></p>
-                <p class="detalles extra">Henry Cavill Alan Ritchson 2024</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/bad boys hasta la muerte.jpeg" class="img">
-                <p class="detalles">BAD BOYS</p>
-                <p class="detalles">Hasta la Muerte</p>
-                <p class="detalles extra">Will Smith
-                    Martin Lawrence accion español 2024</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/the strangers chapter one.jpeg" class="img">
-                <p class="detalles">The Strangers</p>
-                <p class="detalles">Chapter 1</p>
-                <p class="detalles extra">2024</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/Atlas.jpeg" class="img">
-                <p class="detalles">ATLAS</p>
-                <p class="detalles">FICCION</p>
-                <p class="detalles extra">Jennifer Lopez ficcion 2024</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/Detonantes.jpeg" class="img">
-                <p class="detalles">Detonantes</p>
-                <p class="detalles">ACCION</p>
-                <p class="detalles extra">Suspenso Jessica Alba 2024</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/kung fu panda cuatro.jpeg" class="img">
-                <p class="detalles">Kung Fu Panda</p>
-                <p class="detalles">4</p>
-                <p class="detalles extra"></p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/beverly hills cop axelf.jpeg" class="img">
-                <p class="detalles">Beverly Hills Cop</p>
-                <p class="detalles">AXEL-F</p>
-                <p class="detalles extra">Eddie Murphy comedia accion policial</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/el planeta de los simios nuevo reino.jpeg" class="img">
-                <p class="detalles">El Planeta de los SImios</p>
-                <p class="detalles">Nuevo Reino</p>
-                <p class="detalles extra">aventura ficcion</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/wish el poder de los deseos.jpeg" class="img">
-                <p class="detalles">Wish</p>
-                <p class="detalles">El Poder de los Deseos</p>
-                <p class="detalles extra">ANIMADOS</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/garfield fuera de casa.jpeg" class="img">
-                <p class="detalles">Garfield</p>
-                <p class="detalles">Fuera de Casa</p>
-                <p class="detalles extra">ANIMADOS</p>
-            </div>            
-            <div class="card filmes">
-                <img src="img/Furiosa.jpeg" class="img">
-                <p class="detalles">Furiosa</p>
-                <p class="detalles">ACCION</p>
-                <p class="detalles extra">
-                    aventura Anya Taylor-Joy
-                    Chris Hemsworth español 2024</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>            
-            <div class="card filmes">
-                <img src="img/tarot.jpeg" class="img">
-                <p class="detalles">Tarot de la Muerte</p>
-                <p class="detalles">TERROR</p>
-                <p class="detalles extra">
-                    terror español horror espiritus fantasma 2024</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>            
-            <div class="card filmes">
-                <img src="img/Intensa mente.jpeg" class="img">
-                <p class="detalles">Intensa-Mente</p>
-                <p class="detalles">ANIMADOS</p>
-                <p class="detalles extra">2015</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>            
-            <div class="card filmes">
-                <img src="img/aracnidos.jpeg" class="img">
-                <p class="detalles">Arácnidos</p>
-                <p class="detalles">TERROR</p>
-                <p class="detalles extra">
-                    terror español horror arañas 2023</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>            
-            <div class="card filmes">
-                <img src="img/Split.jpeg" class="img">
-                <p class="detalles">Split (Fragmentado)</p>
-                <p class="detalles">Suspenso</p>
-                <p class="detalles extra">
-                    thriller James McAvoy español
-                    Anya Taylor-Joy 2016</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>            
-            <div class="card filmes">
-                <img src="img/Evil Dead El Despertar.jpeg" class="img">
-                <p class="detalles">Evil Dead El Despertar</p>
-                <p class="detalles">Terror</p>
-                <p class="detalles extra">2023 español Morgan horror Davies Alyssa Sutherland</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>            
-            <div class="card filmes">
-                <img src="img/Blade Runner 2049.jpeg" class="img">
-                <p class="detalles">Blade Runner 2049</p>
-                <p class="detalles">FICCION</p>
-                <p class="detalles extra">
-                    Ryan Gosling
-                    Harrison Ford
-                    Ana de Armas Accion
-                    ficcion
-                    Suspenso 2017</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>            
-            <div class="card filmes">
-                <img src="img/Elemental.jpeg" class="img">
-                <p class="detalles">Elemental</p>
-                <p class="detalles">ANIMADOS</p>
-                <p class="detalles extra">2023 español</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>            
-            <div class="card filmes">
-                <img src="img/Godzilla y Kong Nuevo Imperio.jpeg" class="img">
-                <p class="detalles">Godzilla y Kong</p>
-                <p class="detalles">Nuevo Imperio</p>
-                <p class="detalles">FICCION</p>
-                <p class="detalles extra">
-                    Dan Stevens
-                    Rebecca Hall
-                    Brian Tyree Henry
-                	ficcion
-                    2024</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>
-            <div class="card filmes">
-                <img src="img/Ghostbusters Apocalipsis Fantasma.jpeg" class="img">
-                <p class="detalles">Ghostbusters</p>
-                <p class="detalles">Apocalipsis Fantasma</p>
-                <p class="detalles">FICCION</p>
-                <p class="detalles extra">
-                    ficcion fantastica 2024 Bill Murray Paul Rudd</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>
-            <div class="card filmes">
-                <img src="img/The Equalizer.jpeg" class="img">
-                <p class="detalles">The Equalizer</p>
-                <p class="detalles"></p>
-                <p class="detalles">ACCION</p>
-                <p class="detalles extra">Denzel Washington Suspenso</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>
-            <div class="card filmes">
-                <img src="img/The Equalizer dos.jpeg" class="img">
-                <p class="detalles">The Equalizer 2</p>
-                <p class="detalles"></p>
-                <p class="detalles">ACCION</p>
-                <p class="detalles extra">Denzel Washington Suspenso</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>
-            <div class="card filmes">
-                <img src="img/The Equalizer Tres.jpeg" class="img">
-                <p class="detalles">The Equalizer 3</p>
-                <p class="detalles"></p>
-                <p class="detalles">ACCION</p>
-                <p class="detalles extra">Denzel Washington Suspenso</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>
-            <div class="card filmes">
-                <img src="img/Victor Frankenstein.jpeg" class="img">
-                <p class="detalles">Victor Frankenstein</p>
-                <p class="detalles"></p>
-                <p class="detalles">FICCION</p>
-                <p class="detalles extra">
-                    2015 Daniel Radcliffe
-                    James McAvoy 	Drama
-                    Monstruos</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>
-            <div class="card filmes">
-                <img src="img/Troya.jpeg" class="img">
-                <p class="detalles">Troya</p>
-                <p class="detalles"></p>
-                <p class="detalles">ACCION</p>
-                <p class="detalles extra">Brad Pitt
-                    Eric Bana epico accion drama
-                    Orlando Bloom</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>
-            <div class="card filmes">
-                <img src="img/007 Skyfall.jpeg" class="img">
-                <p class="detalles">007</p>
-                <p class="detalles">Skyfall</p>
-                <p class="detalles">ACCION</p>
-                <p class="detalles extra">Daniel Craig
-                    Judi Dench  Javier Bardem Ralph Fiennes Accion 2012
-                    Suspense Blockbuster Espionaje</p>
-                <!-- <p class="detalles">Formato:MP4 720p</p>                    -->
-            </div>
-            <div class="card filmes">
-                <img src="img/Harry Potter y la Piedra Filosofal uno.jpeg" class="img">
-                <p class="detalles">Harry Potter 1</p>
-                <p class="detalles">la Piedra Filosofal</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Daniel Radcliff Rupert Grint Emma Watson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/Harry Potter y la Camara Secreta dos.jpeg" class="img">
-                <p class="detalles">Harry Potter 2</p>
-                <p class="detalles">la Camara Secreta</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Daniel Radcliff Rupert Grint Emma Watson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/Harry Potter and the Prisoner of Azkaban tres.jpeg" class="img">
-                <p class="detalles">Harry Potter 3</p>
-                <p class="detalles">El Prisionero de Azkaban</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Daniel Radcliff Rupert Grint Emma Watson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/Harry Potter The Goblet Of Fire cuatro.jpeg" class="img">
-                <p class="detalles">Harry Potter 4</p>
-                <p class="detalles">El Calis de Fuego</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Daniel Radcliff Rupert Grint Emma Watson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/Harry Potter y la Orden del Fenix cinco .jpeg" class="img">
-                <p class="detalles">Harry Potter 5</p>
-                <p class="detalles">La Orden del Fenix</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Daniel Radcliff Rupert Grint Emma Watson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/Harry Potter y el Misterio del Principe seis.jpeg" class="img">
-                <p class="detalles">Harry Potter 6</p>
-                <p class="detalles">El Misterio del Principe</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Daniel Radcliff Rupert Grint Emma Watson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/Harry Potter and the Deathly Hallows siete.jpeg" class="img">
-                <p class="detalles">Harry Potter 7-1</p>
-                <p class="detalles">Las Reliquias de la Muerte</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Daniel Radcliff Rupert Grint Emma Watson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/Harry Potter y las reliquias de la muerte siete dos.jpeg" class="img">
-                <p class="detalles">Harry Potter 7-2</p>
-                <p class="detalles">Las Reliquias de la Muerte</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Daniel Radcliff Rupert Grint Emma Watson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/crepusculo.jpeg" class="img">
-                <p class="detalles">Crepùsculo (Twilight)</p>
-                <p class="detalles"></p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Kristen Stewart
-                    Robert Pattinson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/luna nueva.jpeg" class="img">
-                <p class="detalles">Crepùsculo (Twilight)</p>
-                <p class="detalles">Luna Nueva</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Kristen Stewart
-                    Robert Pattinson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/eclipse.jpeg" class="img">
-                <p class="detalles">Crepùsculo (Twilight)</p>
-                <p class="detalles">Eclipse</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Kristen Stewart
-                    Robert Pattinson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/amanecer uno.jpeg" class="img">
-                <p class="detalles">Crepùsculo (Twilight)</p>
-                <p class="detalles">Amanecer 1</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Kristen Stewart
-                    Robert Pattinson</p>
-            </div>
-            <div class="card filmes">
-                <img src="img/amanecer dos.jpeg" class="img">
-                <p class="detalles">Crepùsculo (Twilight)</p>
-                <p class="detalles">Amanecer 2</p>
-                <p class="detalles">FANTASIA</p>
-                <p class="detalles extra">Kristen Stewart
-                    Robert Pattinson</p>
+    <div id="top" class="container">
+        <div class="title">
+            Eric's Movie Database
+            <div class="link-buttons grayscale">
+                <a href="https://www.themoviedb.org" class="link-button"><img src="img/themoviedb.png"></a>
+                <a href="https://www.imdb.com" class="link-button"><img src="img/imdb.png"></a>
+                <a href="https://www.rottentomatoes.com" class="link-button"><img src="img/tomatoes.png"></a>
+                <a href="https://www.emdb.eu" class="link-button"><img src="img/emdb.png"></a>
             </div>
         </div>
-    </div>    
+        <div class="sub-title">
+            <span>&#218;ltima actualizaci&#243;n: 08/10/2024</span>
+            <span>Cantidad de pel&#237;culas: 21</span>
+        </div>
+        <div class="header-buttons">
+            <a href="#latest-additions" class="button-darkgray">&#218;ltimas a&#241;adidas</a>
+            <a href="#all-movies" class="button-darkgray">Todas</a>
+            <a href="#movies-a" class="button-darkgray">A</a>
+<a href="#movies-b" class="button-darkgray">B</a>
+<a href="#movies-c" class="button-darkgray">C</a>
+<a href="#movies-d" class="button-darkgray">D</a>
+<a href="#movies-e" class="button-darkgray">E</a>
+<a href="#movies-f" class="button-darkgray">F</a>
+<a href="#movies-g" class="button-darkgray">G</a>
+<a href="#movies-h" class="button-darkgray">H</a>
+<a href="#movies-i" class="button-darkgray">I</a>
+<a href="#movies-j" class="button-darkgray">J</a>
+<a href="#movies-k" class="button-darkgray">K</a>
+<a href="#movies-l" class="button-darkgray">L</a>
+<a href="#movies-m" class="button-darkgray">M</a>
+<a href="#movies-n" class="button-darkgray">N</a>
+<a href="#movies-o" class="button-darkgray">O</a>
+<a href="#movies-p" class="button-darkgray">P</a>
+<a href="#movies-q" class="button-darkgray">Q</a>
+<a href="#movies-r" class="button-darkgray">R</a>
+<a href="#movies-s" class="button-darkgray">S</a>
+<a href="#movies-t" class="button-darkgray">T</a>
+<a href="#movies-u" class="button-darkgray">U</a>
+<a href="#movies-v" class="button-darkgray">V</a>
+<a href="#movies-w" class="button-darkgray">W</a>
+<a href="#movies-x" class="button-darkgray">X</a>
+<a href="#movies-y" class="button-darkgray">Y</a>
+<a href="#movies-z" class="button-darkgray">Z</a>
 
+            <a href="#movies-09" class="button-darkgray">0..9</a>
+            
+            <a href="#movies-3d" class="button-darkgray">3D</a>
+            <a href="./genres/genres.html" class="button-darkgray">G&#233;neros</a>
+            <a href="./years.html" class="button-darkgray">A&#241;os</a>
+            <a href="./collections/collections.html" class="button-darkgray">Colecciones</a>
+        </div>
+        
+        <div class="header-green" id="latest-additions">
+            &#218;ltimas a&#241;adidas
+        </div>
+        <div class="bar"></div>
+        <ul class="link-gray movie-list">
+            <li class="thumbnail">
+    <a href="movies/11.html">
+        <div class="shiny-container" >
+            <img src="covers/000384.jpg" alt="poster Wrath of Man&nbsp;&nbsp;(2021)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Wrath of Man&nbsp;&nbsp;(2021)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/4.html">
+        <div class="shiny-container" >
+            <img src="covers/000377.jpg" alt="poster Wild Card&nbsp;&nbsp;(2015)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Wild Card&nbsp;&nbsp;(2015)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/21.html">
+        <div class="shiny-container" >
+            <img src="covers/000394.jpg" alt="poster Wild Card&nbsp;&nbsp;(2015)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Wild Card&nbsp;&nbsp;(2015)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/10.html">
+        <div class="shiny-container" >
+            <img src="covers/000383.jpg" alt="poster The Meg&nbsp;&nbsp;(2018)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            The Meg&nbsp;&nbsp;(2018)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/9.html">
+        <div class="shiny-container" >
+            <img src="covers/000382.jpg" alt="poster The Italian Job&nbsp;&nbsp;(2003)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            The Italian Job&nbsp;&nbsp;(2003)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/1.html">
+        <div class="shiny-container" >
+            <img src="covers/000374.jpg" alt="poster The Beekeeper&nbsp;&nbsp;(2024)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            The Beekeeper&nbsp;&nbsp;(2024)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/8.html">
+        <div class="shiny-container" >
+            <img src="covers/000381.jpg" alt="poster The Bank Job&nbsp;&nbsp;(2008)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            The Bank Job&nbsp;&nbsp;(2008)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/13.html">
+        <div class="shiny-container" >
+            <img src="covers/000386.jpg" alt="poster Spy&nbsp;&nbsp;(2011)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Spy&nbsp;&nbsp;(2011)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/12.html">
+        <div class="shiny-container" >
+            <img src="covers/000385.jpg" alt="poster Snatch&nbsp;&nbsp;(2000)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Snatch&nbsp;&nbsp;(2000)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/7.html">
+        <div class="shiny-container" >
+            <img src="covers/000380.jpg" alt="poster Safe&nbsp;&nbsp;(2012)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Safe&nbsp;&nbsp;(2012)
+        </div>
+    </a>
+</li>
 
-<!-- Cierre -->
+        </ul>
+        
 
-<section class="info-chat">
-    <div class="contacta">
-        <a href="https://api.whatsapp.com/send?phone=+5354012838" class="whatsapp"><img src="../whatsapp-icon.svg" class="what-img"></a>
+        
 
-        <!-- <h2 class="chat">Chat!</h2> -->
+        
+        <div class="header-green" id="all-movies">
+            Todas
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list">
+            <li class="thumbnail">
+    <a href="movies/21.html">
+        <div class="shiny-container" >
+            <img src="covers/000394.jpg" alt="poster Wild Card&nbsp;&nbsp;(2015)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            21<br/>Wild Card&nbsp;&nbsp;(2015)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/20.html">
+        <div class="shiny-container" >
+            <img src="covers/000393.jpg" alt="poster Revolver&nbsp;&nbsp;(2005)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            20<br/>Revolver&nbsp;&nbsp;(2005)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/19.html">
+        <div class="shiny-container" >
+            <img src="covers/000392.jpg" alt="poster Redemption&nbsp;&nbsp;(2013)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            19<br/>Redemption&nbsp;&nbsp;(2013)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/18.html">
+        <div class="shiny-container" >
+            <img src="covers/000391.jpg" alt="poster Lock, Stock and Two Smoking Barrels&nbsp;&nbsp;(1998)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            18<br/>Lock, Stock and Two Smoking Barrels&nbsp;&nbsp;(1998)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/17.html">
+        <div class="shiny-container" >
+            <img src="covers/000390.jpg" alt="poster Hummingbird&nbsp;&nbsp;(2013)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            17<br/>Hummingbird&nbsp;&nbsp;(2013)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/16.html">
+        <div class="shiny-container" >
+            <img src="covers/000389.jpg" alt="poster 13&nbsp;&nbsp;(2010)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            16<br/>13&nbsp;&nbsp;(2010)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/15.html">
+        <div class="shiny-container" >
+            <img src="covers/000388.jpg" alt="poster Cellular&nbsp;&nbsp;(2004)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            15<br/>Cellular&nbsp;&nbsp;(2004)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/14.html">
+        <div class="shiny-container" >
+            <img src="covers/000387.jpg" alt="poster Ghosts of Mars&nbsp;&nbsp;(2001)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            14<br/>Ghosts of Mars&nbsp;&nbsp;(2001)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/13.html">
+        <div class="shiny-container" >
+            <img src="covers/000386.jpg" alt="poster Spy&nbsp;&nbsp;(2011)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            13<br/>Spy&nbsp;&nbsp;(2011)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/12.html">
+        <div class="shiny-container" >
+            <img src="covers/000385.jpg" alt="poster Snatch&nbsp;&nbsp;(2000)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            12<br/>Snatch&nbsp;&nbsp;(2000)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/11.html">
+        <div class="shiny-container" >
+            <img src="covers/000384.jpg" alt="poster Wrath of Man&nbsp;&nbsp;(2021)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            11<br/>Wrath of Man&nbsp;&nbsp;(2021)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/10.html">
+        <div class="shiny-container" >
+            <img src="covers/000383.jpg" alt="poster The Meg&nbsp;&nbsp;(2018)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            10<br/>The Meg&nbsp;&nbsp;(2018)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/9.html">
+        <div class="shiny-container" >
+            <img src="covers/000382.jpg" alt="poster The Italian Job&nbsp;&nbsp;(2003)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            9<br/>The Italian Job&nbsp;&nbsp;(2003)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/8.html">
+        <div class="shiny-container" >
+            <img src="covers/000381.jpg" alt="poster The Bank Job&nbsp;&nbsp;(2008)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            8<br/>The Bank Job&nbsp;&nbsp;(2008)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/7.html">
+        <div class="shiny-container" >
+            <img src="covers/000380.jpg" alt="poster Safe&nbsp;&nbsp;(2012)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            7<br/>Safe&nbsp;&nbsp;(2012)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/6.html">
+        <div class="shiny-container" >
+            <img src="covers/000379.jpg" alt="poster Parker&nbsp;&nbsp;(2013)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            6<br/>Parker&nbsp;&nbsp;(2013)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/5.html">
+        <div class="shiny-container" >
+            <img src="covers/000378.jpg" alt="poster Operation Fortune: Ruse de Guerre&nbsp;&nbsp;(2023)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            5<br/>Operation Fortune: Ruse de Guerre&nbsp;&nbsp;(2023)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/4.html">
+        <div class="shiny-container" >
+            <img src="covers/000377.jpg" alt="poster Wild Card&nbsp;&nbsp;(2015)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            4<br/>Wild Card&nbsp;&nbsp;(2015)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/3.html">
+        <div class="shiny-container" >
+            <img src="covers/000376.jpg" alt="poster Chaos&nbsp;&nbsp;(2005)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            3<br/>Chaos&nbsp;&nbsp;(2005)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/2.html">
+        <div class="shiny-container" >
+            <img src="covers/000375.jpg" alt="poster Blitz&nbsp;&nbsp;(2011)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            2<br/>Blitz&nbsp;&nbsp;(2011)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/1.html">
+        <div class="shiny-container" >
+            <img src="covers/000374.jpg" alt="poster The Beekeeper&nbsp;&nbsp;(2024)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            1<br/>The Beekeeper&nbsp;&nbsp;(2024)
+        </div>
+    </a>
+</li>
 
-        <a href="../index.html"><img src="https://img.icons8.com/?size=100&id=115773&format=png&color=000000" class="btn-ico"></a>
+        </ul>
+        
 
-        <!-- <h2 class="callme">CallMe</h2> -->
+        
+        <div class="header-green" id="movies-b">
+            B
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/8.html">
+        <div class="shiny-container" >
+            <img src="covers/000381.jpg" alt="poster The Bank Job&nbsp;&nbsp;(2008)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            The Bank Job&nbsp;&nbsp;(2008)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/1.html">
+        <div class="shiny-container" >
+            <img src="covers/000374.jpg" alt="poster The Beekeeper&nbsp;&nbsp;(2024)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            The Beekeeper&nbsp;&nbsp;(2024)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/2.html">
+        <div class="shiny-container" >
+            <img src="covers/000375.jpg" alt="poster Blitz&nbsp;&nbsp;(2011)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Blitz&nbsp;&nbsp;(2011)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-c">
+            C
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/15.html">
+        <div class="shiny-container" >
+            <img src="covers/000388.jpg" alt="poster Cellular&nbsp;&nbsp;(2004)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Cellular&nbsp;&nbsp;(2004)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/3.html">
+        <div class="shiny-container" >
+            <img src="covers/000376.jpg" alt="poster Chaos&nbsp;&nbsp;(2005)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Chaos&nbsp;&nbsp;(2005)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-g">
+            G
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/14.html">
+        <div class="shiny-container" >
+            <img src="covers/000387.jpg" alt="poster Ghosts of Mars&nbsp;&nbsp;(2001)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Ghosts of Mars&nbsp;&nbsp;(2001)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-h">
+            H
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/17.html">
+        <div class="shiny-container" >
+            <img src="covers/000390.jpg" alt="poster Hummingbird&nbsp;&nbsp;(2013)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Hummingbird&nbsp;&nbsp;(2013)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-i">
+            I
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/9.html">
+        <div class="shiny-container" >
+            <img src="covers/000382.jpg" alt="poster The Italian Job&nbsp;&nbsp;(2003)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            The Italian Job&nbsp;&nbsp;(2003)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-l">
+            L
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/18.html">
+        <div class="shiny-container" >
+            <img src="covers/000391.jpg" alt="poster Lock, Stock and Two Smoking Barrels&nbsp;&nbsp;(1998)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Lock, Stock and Two Smoking Barrels&nbsp;&nbsp;(1998)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-m">
+            M
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/10.html">
+        <div class="shiny-container" >
+            <img src="covers/000383.jpg" alt="poster The Meg&nbsp;&nbsp;(2018)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            The Meg&nbsp;&nbsp;(2018)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-o">
+            O
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/5.html">
+        <div class="shiny-container" >
+            <img src="covers/000378.jpg" alt="poster Operation Fortune: Ruse de Guerre&nbsp;&nbsp;(2023)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Operation Fortune: Ruse de Guerre&nbsp;&nbsp;(2023)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-p">
+            P
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/6.html">
+        <div class="shiny-container" >
+            <img src="covers/000379.jpg" alt="poster Parker&nbsp;&nbsp;(2013)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Parker&nbsp;&nbsp;(2013)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-r">
+            R
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/19.html">
+        <div class="shiny-container" >
+            <img src="covers/000392.jpg" alt="poster Redemption&nbsp;&nbsp;(2013)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Redemption&nbsp;&nbsp;(2013)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/20.html">
+        <div class="shiny-container" >
+            <img src="covers/000393.jpg" alt="poster Revolver&nbsp;&nbsp;(2005)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Revolver&nbsp;&nbsp;(2005)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-s">
+            S
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/7.html">
+        <div class="shiny-container" >
+            <img src="covers/000380.jpg" alt="poster Safe&nbsp;&nbsp;(2012)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Safe&nbsp;&nbsp;(2012)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/12.html">
+        <div class="shiny-container" >
+            <img src="covers/000385.jpg" alt="poster Snatch&nbsp;&nbsp;(2000)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Snatch&nbsp;&nbsp;(2000)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/13.html">
+        <div class="shiny-container" >
+            <img src="covers/000386.jpg" alt="poster Spy&nbsp;&nbsp;(2011)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Spy&nbsp;&nbsp;(2011)
+        </div>
+    </a>
+</li>
+</ul>
+        
+        <div class="header-green" id="movies-w">
+            W
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/4.html">
+        <div class="shiny-container" >
+            <img src="covers/000377.jpg" alt="poster Wild Card&nbsp;&nbsp;(2015)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Wild Card&nbsp;&nbsp;(2015)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/21.html">
+        <div class="shiny-container" >
+            <img src="covers/000394.jpg" alt="poster Wild Card&nbsp;&nbsp;(2015)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Wild Card&nbsp;&nbsp;(2015)
+        </div>
+    </a>
+</li>
+<li class="thumbnail">
+    <a href="movies/11.html">
+        <div class="shiny-container" >
+            <img src="covers/000384.jpg" alt="poster Wrath of Man&nbsp;&nbsp;(2021)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            Wrath of Man&nbsp;&nbsp;(2021)
+        </div>
+    </a>
+</li>
+</ul>
+        
 
-        <a href="tel:+5354012838"><img src="https://img.icons8.com/?size=100&id=96403&format=png&color=000000" class="call"></a>
+        
+        <div class="header-green" id="movies-09">0..9</div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"><li class="thumbnail">
+    <a href="movies/16.html">
+        <div class="shiny-container" >
+            <img src="covers/000389.jpg" alt="poster 13&nbsp;&nbsp;(2010)" height="135">
+            <div class="shiny-frame"></div>
+        </div>
+        <div class="thumbnail-text">
+            13&nbsp;&nbsp;(2010)
+        </div>
+    </a>
+</li>
+</ul>
+        
+
+        
+
+        
+        <div class="header-green" id="movies-3d" >
+            3D Movies
+        </div>
+        <div class="bar">
+            <a href="#top" class="phone-home">HOME</a>
+        </div>
+        <ul class="link-gray movie-list"></ul>
+        
+
+        <div class="footer">
+            <p>Creado con EMDB V5.33 (C) 2005-2024. Sin derechos reservados ;-)</p>
+            <!-- saved from url=(0022)http://internet.e-mail -->
+<span class="plain_text_footer"> <div align="center"><IMG SRC="http://counter.digits.com/?counter={569d1168-191d-8de4-b943-b6df59f1f810}&charset=9&digits=5&rightface&zerofill" width="75" height="20"><br>
+get your own free counter at www.digits.com</div></span>
+
+        </div>
     </div>
-</section>
-
-<script src="finder.js"></script>
-
 </body>
 </html>

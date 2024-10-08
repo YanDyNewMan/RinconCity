@@ -1,0 +1,6 @@
+[2024-10-08 07:12:54.310] [info] [P/T: 1596/11348] [CEngineManager::EnumDevice] Start
+[2024-10-08 07:12:55.725] [info] [P/T: 1596/11348] [CEngineManager::EnumDevice] End
+[2024-10-08 07:13:50.853] [info] [P/T: 1596/11348] [CEngineManager::ParseScanOption] scanparam device type: 0
+[2024-10-08 07:13:50.861] [info] [P/T: 1596/11348] [CEngineManager::GetScanDeviceInfo] [CRecoverManager::Scan] sector size is 512
+[2024-10-08 07:13:50.861] [info] [P/T: 1596/11348] [CEngineManager::GetScanDeviceInfo] [Display Information]: Logical Volume: Local Disk(C:), TotalOfBytes: 511432458240 B
+[2024-10-08 07:13:50.872] [info] [P/T: 1596/11348] [CEngineManager::Scan] [Display Information] Scan Type: 1, Filesystem Symbol: 0x4, RecycleBin: false

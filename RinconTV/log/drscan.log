@@ -1,0 +1,38 @@
+[2024-10-08 07:13:50.871] [info] [P/T: 1596/11348] [CRawFileHintSet::LoadConfig] Load filehint.xml successfully
+[2024-10-08 07:13:50.871] [info] [P/T: 1596/11348] [CRawFileHintSet::CRawFileHintSet] Total file hitnt: 181
+[2024-10-08 07:13:51.576] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::Scan] [CNtfsDelScanOperator] scan start  9527
+[2024-10-08 07:13:51.576] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::ScanEx] start
+[2024-10-08 07:13:51.577] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::ReadMainDBR] [CNtfsDelScanOperator::ReadMainDBR] readed buffer: EB52904E544653202020200002080000
+[2024-10-08 07:13:51.577] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::loadDBR] [CNtfsDelScanOperator::loadDBR] Main DBR is found.
+[2024-10-08 07:13:51.577] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::LoadMFTListAndBitMap] [CNtfsDelScanOperator]: LoadMFTListAndBitMap begin
+[2024-10-08 07:13:51.578] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::LoadMFTListAndBitMap] [CheckFileMFT] : tpMFTBuffer info =FILE0 OK
+[2024-10-08 07:13:51.579] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::initMftBitmap] [CNtfsDelScanOperator::initMftBitmap] end
+[2024-10-08 07:13:51.579] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::InitFileExistenceChecker] CNtfsDelScanOperator::InitFileExistenceChecker begin.
+[2024-10-08 07:13:51.579] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::InitFileExistenceChecker]  end.
+[2024-10-08 07:13:51.581] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\AppData\Roaming\Microsoft\Word
+[2024-10-08 07:13:51.583] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\AppData\Roaming\Microsoft\Excel
+[2024-10-08 07:13:51.591] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\AppData\Roaming\Microsoft\PowerPoint
+[2024-10-08 07:13:51.592] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\AppData\Roaming\.minecraft
+[2024-10-08 07:13:51.593] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\AppData\Roaming\.minecraft\saves
+[2024-10-08 07:13:51.594] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\APPDATA\LocalLow\Palworld
+[2024-10-08 07:13:51.595] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\APPDATA\LocalLow\Palworld\Save
+[2024-10-08 07:13:51.597] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\APPDATA\Local\Pal
+[2024-10-08 07:13:51.601] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\APPDATA\Local\Pal\Saved
+[2024-10-08 07:13:51.602] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\APPDATA\Local\Pal\Saved\SaveGames
+[2024-10-08 07:13:51.605] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\Documents\My Games\Hell Diver\SaveData
+[2024-10-08 07:13:51.611] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\AppData\Roaming\Arrowhead\Helldivers\saves
+[2024-10-08 07:13:51.612] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\Documents\Nintendo Switch\save data
+[2024-10-08 07:13:51.613] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\Documents\Anno 1800\accounts
+[2024-10-08 07:13:51.614] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\AppData\Local\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public\Savegames
+[2024-10-08 07:13:51.615] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::collectSpecifiedDir] can not find spec path C:\Users\11\AppData\Roaming\EldenRing
+[2024-10-08 07:13:51.616] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::analyzeUsnJrnl] start to analze usnj
+[2024-10-08 07:13:51.616] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::analyzeUsnJrnl] find usnj id
+[2024-10-08 07:13:51.616] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::analyzeUsnJrnl] find usnj sector pos
+[2024-10-08 07:13:51.616] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::analyzeUsnJrnl] parse usn $j
+[2024-10-08 07:13:51.616] [error] [P/T: 1596/11348] [CNtfsDelScanOperator::analyzeUsnJrnl] can not find $J.
+[2024-10-08 07:13:51.617] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::ScanMFT] start sector: 6291456, start file num: 0, end file num: 82688
+[2024-10-08 07:14:01.994] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::ScanMFT] start sector: 17778208, start file num: 82688, end file num: 118272
+[2024-10-08 07:14:05.418] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::ScanMFT] start sector: 35279616, start file num: 118272, end file num: 130816
+[2024-10-08 07:14:06.505] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::ScanMFT] start sector: 163381984, start file num: 130816, end file num: 254720
+[2024-10-08 07:14:17.002] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::ScanMFT] start sector: 73836504, start file num: 254720, end file num: 288000
+[2024-10-08 07:14:20.018] [info] [P/T: 1596/11348] [CNtfsDelScanOperator::ScanMFT] start sector: 246779408, start file num: 288000, end file num: 293376
