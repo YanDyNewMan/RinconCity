@@ -2,32 +2,35 @@ body {
     font-family: Century Gothic, sans-serif;
     font-size: 14px;
     color: #9ab;
-    background: #101010;
+    background: #e4e4e4;
     margin: 0;
     padding: 0;
 }
 
+/* contenedor negro */
 .container {
-    margin: 20px auto;
-    width: 100%;
+    margin: 0px auto;
+    width: 100vh;
+    max-width: 1000px;
     padding: 10px;
-    border-radius: 10px;
     background: #14181c;
     background: #000000;
 }
 
 .title { 
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 50px; 
+    font-size: 70px; 
     font-weight: bold; 
     color: white; 
+    outline: 1px solid rgb(71, 255, 47);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+/* Iconos de Link */
 .title .link-buttons {
-    display: flex;
+    display: none;
     align-items: center;
     font-size: 14px;
 }
@@ -60,6 +63,10 @@ body {
 
 .header-buttons {
     margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .bar {
@@ -97,18 +104,18 @@ body {
     padding: 8px 0;
 }
 
+/* ABECEDARIO */
 a.button-darkgray, a.button-darkgray:visited, a.button-darkgray:link {
     color: rgb(255, 255, 255);
     background: #283038;
     text-decoration: none;
     display: inline-block;
     padding: 10px 10px;
-    font-size: 40px;
+    font-size: 60px;
     white-space: nowrap;
     border-radius: 3px;
     box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 5%);
-    margin-right: 6px;
-    margin-bottom: 6px;   
+    margin: 10px;  
 }
 
 a.button-darkgray:hover {
@@ -170,11 +177,13 @@ b {
     border-radius: 5px;
 }
 
+/* OJO */
 .shiny-container {
     position: relative;
     display: inline-block;
 }
 
+/* SOMBRITA */
 .shiny-frame {
     display: block;
     position: absolute;
@@ -221,7 +230,7 @@ b {
 }
 
 .movie-container .right {
-    margin-left: 24px;
+    margin-left: 5px;
 }
 
 .poster { 
@@ -253,15 +262,17 @@ b {
     //margin-left: 8px;
 }
 
+/* Parte de Actor */
 .movie-container {
     display: flex;
     align-items: flex-start;
     margin-top: 12px;
 }
 
+/* BATEITO */
 ul.movie-list {
-    /* list-style-type: none; */
-    /* padding-left: 16px; */
+    list-style-type: none;
+    padding-left: 0px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
