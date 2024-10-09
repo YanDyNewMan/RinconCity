@@ -2,7 +2,7 @@ body {
     font-family: Century Gothic, sans-serif;
     font-size: 14px;
     color: #9ab;
-    background: #e4e4e4;
+    background: #000000;
     margin: 0;
     padding: 0;
 }
@@ -140,6 +140,7 @@ a.button-darkgray:hover {
     justify-content: space-between;
 }
 
+/* FLECHITAS */
 .navigation-bar .left {
     display: flex;
     align-items: center;
@@ -175,6 +176,7 @@ b {
 }
 
 .actor-image-container {
+    color: red;
     flex: 0 0 90px;
     display: inline-block;
 }
@@ -220,8 +222,9 @@ b {
     display: flex;
     justify-content: flex-end;
 }
-
+/* Adapte diplay NONE */
 .footer {
+    display: none;
     margin-top: 80px;
     border-top: 2px solid #101010;
     padding: 20px;
