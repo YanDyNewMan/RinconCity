@@ -1,6 +1,6 @@
 body {
     font-family: Century Gothic, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #9ab;
     background: #000000;
     margin: 0;
@@ -9,7 +9,7 @@ body {
 
 /* contenedor negro */
 .container {
-    margin: 0px auto;
+    margin: 0px auto 200px;
     width: 100vh;
     max-width: 1000px;
     padding: 10px;
@@ -23,6 +23,7 @@ body {
     font-weight: bold; 
     color: white; 
     outline: 1px solid rgb(71, 255, 47);
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +54,7 @@ body {
 }
 
 .sub-title span {
-    font-size: 30px;
+    font-size: 45px;
     margin-right: 20px;
 }
 
@@ -124,6 +125,10 @@ a.button-darkgray, a.button-darkgray:visited, a.button-darkgray:link{
     flex-wrap: wrap;
 }
 
+.right{
+    display: none;
+}
+
 a.button-darkgray:hover {
     color: #def;
     background: #303840;
@@ -160,10 +165,10 @@ b {
     font-weight: bold;
     margin-right: 10px;
 }
-
+/* TAGLINE */
 .tagline {
     margin: 12px 0 16px;
-    font-size: 16px;
+    font-size: 30px;
     min-height: 8px;
     font-style: italic;
 }
@@ -175,19 +180,21 @@ b {
     margin-bottom: 8px;
 }
 
-.actor-image-container {
-    color: red;
-    flex: 0 0 90px;
-    display: inline-block;
-}
-
+/* FOTO ACTORES */
 .actor-image {
     border-radius: 5px;
+    height: 200px;
+    width: 150px;
 }
 
 /* OJO */
 .shiny-container {
     position: relative;
+    display: inline-block;
+}
+.actor-image-container {
+    color: red;
+    flex: 0 0 90px;
     display: inline-block;
 }
 
@@ -212,13 +219,15 @@ b {
 .shiny-frame.large {
     border-radius: 6px;
 }
-
+/* ACTOR NAMO */
 .actor-name {
+    font-size: 2.5rem;
+    margin-left: 20px;
     flex: 0 0 calc(50% - 90px);
 }
 
 .character-name {
-    flex: 1 1 auto;
+    font-size: 2.5rem;
     display: flex;
     justify-content: flex-end;
 }
@@ -241,8 +250,9 @@ b {
 .movie-container .right {
     margin-left: 5px;
 }
-
+/* POSTER DE PELICULA */
 .poster { 
+    width: 450px;
     border-radius: 6px;
 }
 
@@ -286,7 +296,7 @@ ul.movie-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 ul.movie-list > li {
@@ -295,8 +305,8 @@ ul.movie-list > li {
 
 ul.movie-list > li.thumbnail {
     display: inline-block;
-    width: 450px;
-    max-width: 450px;
+    width: 470px;
+    max-width: 650px;
     /* overflow: hidden; */
     text-align: center;
     margin: 15px 0;
@@ -308,14 +318,14 @@ ul.movie-list > li.thumbnail {
 }
 /* IMAGENES */
 .thumbnail .shiny-container img {
-    width: 430px;
-    height: 550px;
+    width: 470px;
+    height: 650px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px white;
 }
 /* Titulos */
 ul.movie-list > li.thumbnail .thumbnail-text {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     margin: 20px 0 8px;
     color: white;
 }
@@ -351,4 +361,5 @@ ul.movie-list > li.thumbnail .thumbnail-text {
     font-weight: bold;
     margin-inline-start: -4px;
 }
+
 
